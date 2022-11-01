@@ -1,0 +1,12 @@
+[Unit]
+Description=Automatic connection to bluetooth headphones
+After=bluetooth.target
+Requires=bluetooth.service
+
+[Service]
+Type=simple
+Environment="MAC_HEADPHONES=00:00:00:00:00:00"
+ExecStart=/bin/bash /opt/headphones-connect/headphones.sh
+
+[Install]
+WantedBy=multi-user.target
