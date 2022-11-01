@@ -1,6 +1,3 @@
-cat ./import-commands-bash.sh
-cat ./import-commands-bash.sh
-cat ./import-commands-bash.sh
 #!/bin/bash
 
 commands="
