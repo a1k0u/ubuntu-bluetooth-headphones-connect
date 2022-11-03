@@ -1,4 +1,4 @@
-# Automatic connection of bluetooth headphones in Ubuntu
+# Automatically connection of bluetooth headphones in Ubuntu
 
 > It is awesome when your wireless headphones automatically pairing with your system. 
 
