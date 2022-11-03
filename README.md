@@ -1,7 +1,6 @@
 # Ubuntu bluetooth headphones connect
 
-> It is awesome then headphones automatically
-pairing with your system. 
+> It is awesome when you wireless headphones automatically pairing with your system. 
 
 This daemon-script and
 commands will help you to solve this problem.
