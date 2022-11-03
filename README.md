@@ -1,12 +1,12 @@
 # Ubuntu bluetooth headphones connect
 
-> It is awesome when you wireless headphones automatically pairing with your system. 
+> It is awesome when your wireless headphones automatically pairing with your system. 
 
 This daemon-script and
 commands will help you to solve this problem.
 
 ### Find out MAC-address of your headphones
-If you have already connected this device, then
+If you have already connected your device, then
 use this command:
 
 ```shell
@@ -47,7 +47,7 @@ sudo systemctl status headphones
 
 ### CLI commands to manage your connection with headphones
 
-Add aliases and environmental variable in `.bashrc`, but before add MAC-address.
+Add aliases and environmental variable in `.bashrc`, but after adding MAC-address.
 
 ```shell
 nano import-commands-bash.sh 
@@ -80,7 +80,7 @@ bluetoothctl trust $MAC_HEADPHONES
 _With this daemon you won't able connect your
 headphones with another device_, but there is a
 solution: in infinity circle power off bluetooth,
-after press `Ctrl+C` to stop.
+after press `Ctrl+C` to stop it.
 
 ```shell
 while true; do bluetoothctl power off; done
